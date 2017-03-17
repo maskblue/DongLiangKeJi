@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_version">版本V1.0</string>
+	<string name="app_info">功能：此版本仅有旋转魔方功能，后续会添加keyfob的全部功能。大约在2015.10.01前完成</string>
+    <string name="app_name">AmoKeyfob</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="copyright">阿莫单片机科技淘宝店出品</string>
+    <string name="start_scan">开始扫描</string>
+    <string name="stop_scan">停止扫描</string>        
+    <string name="ble_not_supported">BLE is not supported</string>
+    <string name="error_bluetooth_not_supported">Bluetooth not supported.</string>
+    <string name="mpu6050_sensor_fail">获取传感器失败!</string>
+    <string name="conneting">连接中...</string>
+    <string name="donot_have_mpu6050">该设备没有mpu6050传感器!</string>
+</resources>

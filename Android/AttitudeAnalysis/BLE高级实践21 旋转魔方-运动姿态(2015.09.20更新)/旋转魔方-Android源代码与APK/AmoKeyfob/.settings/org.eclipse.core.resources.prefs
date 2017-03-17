@@ -1,0 +1,10 @@
+eclipse.preferences.version=1
+encoding//src/com/amo/keyfob/Constans.java=UTF-8
+encoding//src/com/amo/keyfob/ui/MainActivity.java=UTF-8
+encoding//src/com/amo/keyfob/ui/PeripheralActivity.java=UTF-8
+encoding//src/com/amo/keyfob/ui/mpu6050/Cube.java=UTF-8
+encoding//src/com/amo/keyfob/ui/mpu6050/CubeRenderer.java=UTF-8
+encoding//src/com/amo/keyfob/ui/mpu6050/GlSurfaceView.java=UTF-8
+encoding//src/com/amo/keyfob/ui/mpu6050/Mpu3DActivity.java=UTF-8
+encoding//src/com/amo/keyfob/ui/mpu6050/Render.java=UTF-8
+encoding//src/com/amo/keyfob/ui/mpu6050/Utils.java=UTF-8

@@ -1,0 +1,20 @@
+int startByte = 0;
+		boolean patternFound = false;
+		
+		//while (startByte <= 8) {
+			if (((int)scanData[startByte+5] & 0xff) == 0x53 &&
+				((int)scanData[startByte+6] & 0xff) == 0x4e &&
+				((int)scanData[startByte+7] & 0xff) == 0x7b &&
+				((int)scanData[startByte+8] & 0xff) == 0x56) 
+			{	
+				Log.e("advinfo", "positioninfo" + (int)scanData[startByte]); //7b
+				// yes!  This is an iBeacon	
+				patternFound = true;
+				//break;
+			}
+		//}
+
+		if (patternFound == false) {
+			// This is not an iBeacon
+			return null;
+		}
